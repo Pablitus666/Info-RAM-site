@@ -2,49 +2,57 @@
 <html lang="es">
 
 <head>
-  <meta charset="UTF-8" />
+  <!-- Básicos -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <title>Info-RAM — Información avanzada de memoria RAM en Windows</title>
+  <meta name="description"
+    content="Aplicación para Windows que muestra información detallada de la memoria RAM: fabricante, tipo, formato, capacidad, velocidad y uso en tiempo real.">
 
-  <!-- Open Graph -->
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="🧠 Info-RAM" />
+  <!-- Open Graph (GitHub Pages friendly) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Info-RAM">
+  <meta property="og:title" content="🧠 Info-RAM">
   <meta property="og:description"
-    content="Aplicación para Windows que muestra información detallada de la memoria RAM: fabricante, tipo, formato, capacidad, velocidad y uso en tiempo real." />
-  <meta property="og:url" content="https://pablitus666.github.io/Info-RAM-site/" />
+    content="Aplicación para Windows que muestra información detallada de la memoria RAM: fabricante, tipo, formato, capacidad, velocidad y uso en tiempo real.">
+  <meta property="og:url" content="https://pablitus666.github.io/Info-RAM-site/">
 
-  <!-- IMAGEN OG (RAW, OBLIGATORIO) -->
-  <meta property="og:image" content="https://raw.githubusercontent.com/Pablitus666/Info-RAM/main/images/preview.png" />
+  <!-- Imagen OG (RAW obligatorio) -->
+  <meta property="og:image" content="https://raw.githubusercontent.com/Pablitus666/Info-RAM/main/images/preview.png">
   <meta property="og:image:secure_url"
-    content="https://raw.githubusercontent.com/Pablitus666/Info-RAM/main/images/preview.png" />
-  <meta property="og:image:type" content="image/png" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
+    content="https://raw.githubusercontent.com/Pablitus666/Info-RAM/main/images/preview.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
 
-  <!-- WhatsApp / Twitter -->
-  <meta name="twitter:card" content="summary_large_image" />
+  <!-- Twitter / WhatsApp -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="🧠 Info-RAM">
+  <meta name="twitter:description"
+    content="Aplicación para Windows que muestra información detallada de la memoria RAM.">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/Pablitus666/Info-RAM/main/images/preview.png">
 
-  <!-- ⏳ Redirección CON RETARDO -->
+  <!-- 🚀 Redirección inmediata -->
+  <meta http-equiv="refresh" content="0; url=https://github.com/Pablitus666/Info-RAM">
+
   <script>
-    setTimeout(() => {
-      window.location.href = "https://github.com/Pablitus666/Info-RAM";
-    }, 2500); // 2.5 segundos
+    window.location.replace("https://github.com/Pablitus666/Info-RAM");
   </script>
 
+  <!-- Evita FOUC / render innecesario -->
   <style>
     body {
-      font-family: system-ui, sans-serif;
-      text-align: center;
-      margin-top: 20vh;
-      color: #444;
+      display: none;
     }
   </style>
 </head>
 
 <body>
-  <h1>🧠 Info-RAM</h1>
-  <p>Información avanzada de memoria RAM en Windows.</p>
-  <p>Redirigiendo automáticamente a GitHub…</p>
+  <noscript>
+    <meta http-equiv="refresh" content="0; url=https://github.com/Pablitus666/Info-RAM">
+  </noscript>
 </body>
 
 </html>
